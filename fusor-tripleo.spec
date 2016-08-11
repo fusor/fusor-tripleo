@@ -2,7 +2,7 @@
 %{!?scl:%global pkg_name %{name}}
 
 Name:           fusor-tripleo
-Version:        1.0
+Version:        1.0.0
 Release:        0%{?dist}
 Summary:        fusor-ooo meta package
 
@@ -13,12 +13,14 @@ Requires:       python-ipaddress
 Requires:       python-tripleoclient
 Requires:       %{?scl_prefix}rubygem-egon
 Requires:       fusor-undercloud-installer
+Requires:       fusor-undercloud-initial-setup
 Requires:       redhat-access-insights
 
 Requires:       puppet
 Requires:       haproxy
 Requires:       ipxe-bootimgs
 Requires:       mariadb
+Requires:       mariadb-devel
 Requires:       mariadb-server
 Requires:       memcached
 Requires:       os-apply-config
@@ -28,6 +30,17 @@ Requires:       os-net-config
 Requires:       os-refresh-config
 Requires:       tftp-server
 Requires:       xinetd
+Requires:       libxslt-devel
+Requires:       gcc-c++
+Requires:       automake
+Requires:       tcpdump
+Requires:       traceroute
+Requires:       python-virtualenv
+Requires:       docker-registry
+Requires:       openwsman-python
+Requires:       python-proliantutils
+Requires:       rabbitmq-server
+Requires:       mod_wsgi
 
 Requires:       openstack-aodh-api
 Requires:       openstack-aodh-common

@@ -12,6 +12,7 @@ Requires:       python-netifaces
 Requires:       python-ipaddress
 Requires:       python-tripleoclient
 Requires:       %{?scl_prefix}rubygem-egon
+Requires:       fusor-undercloud-release
 Requires:       fusor-undercloud-installer
 Requires:       fusor-undercloud-initial-setup
 Requires:       redhat-access-insights

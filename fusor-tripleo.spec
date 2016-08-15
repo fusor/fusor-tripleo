@@ -21,6 +21,7 @@ Requires:       gcc-c++
 Requires:       git
 Requires:       haproxy
 Requires:       ipxe-bootimgs
+Requires:       kernel-devel
 Requires:       libxslt-devel
 Requires:       mariadb
 Requires:       mariadb-devel
@@ -72,6 +73,7 @@ Requires:       os-cloud-config
 Requires:       os-collect-config
 Requires:       os-net-config
 Requires:       os-refresh-config
+Requires:       policycoreutils-devel
 Requires:       puppet
 Requires:       python-proliantutils
 Requires:       python-virtualenv

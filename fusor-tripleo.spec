@@ -8,41 +8,25 @@ Summary:        fusor-ooo meta package
 
 License:        GPL
 
-Requires:       python-netifaces
-Requires:       python-ipaddress
 Requires:       python-tripleoclient
-Requires:       %{?scl_prefix}rubygem-egon
 Requires:       fusor-undercloud-release
 Requires:       fusor-undercloud-installer
 Requires:       fusor-undercloud-initial-setup
 Requires:       redhat-access-insights
 
-Requires:       puppet
+# Openstack Requirements
+Requires:       automake
+Requires:       docker-registry
+Requires:       gcc-c++
+Requires:       git
 Requires:       haproxy
 Requires:       ipxe-bootimgs
+Requires:       libxslt-devel
 Requires:       mariadb
 Requires:       mariadb-devel
 Requires:       mariadb-server
 Requires:       memcached
-Requires:       os-apply-config
-Requires:       os-cloud-config
-Requires:       os-collect-config
-Requires:       os-net-config
-Requires:       os-refresh-config
-Requires:       tftp-server
-Requires:       xinetd
-Requires:       libxslt-devel
-Requires:       gcc-c++
-Requires:       automake
-Requires:       tcpdump
-Requires:       traceroute
-Requires:       python-virtualenv
-Requires:       docker-registry
-Requires:       openwsman-python
-Requires:       python-proliantutils
-Requires:       rabbitmq-server
 Requires:       mod_wsgi
-
 Requires:       openstack-aodh-api
 Requires:       openstack-aodh-common
 Requires:       openstack-aodh-evaluator
@@ -82,9 +66,22 @@ Requires:       openstack-swift-object
 Requires:       openstack-swift-proxy
 Requires:       openstack-tempest
 Requires:       openstack-tripleo-api
-
+Requires:       openwsman-python
+Requires:       os-apply-config
+Requires:       os-cloud-config
+Requires:       os-collect-config
+Requires:       os-net-config
+Requires:       os-refresh-config
+Requires:       puppet
+Requires:       python-proliantutils
+Requires:       python-virtualenv
+Requires:       rabbitmq-server
 Requires:       rhosp-director-images
 Requires:       rhosp-director-images-ipa
+Requires:       tcpdump
+Requires:       tftp-server
+Requires:       traceroute
+Requires:       xinetd
 
 BuildArch:      noarch
 

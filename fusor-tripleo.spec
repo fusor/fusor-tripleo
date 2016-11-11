@@ -66,7 +66,9 @@ Requires:       openstack-swift-container
 Requires:       openstack-swift-object
 Requires:       openstack-swift-proxy
 Requires:       openstack-tempest
-Requires:       openstack-tripleo-api
+Requires:       openstack-tripleo-ui
+Requires:       openstack-tripleo-validations
+Requires:       openstack-zaqar
 Requires:       openwsman-python
 Requires:       os-apply-config
 Requires:       os-cloud-config

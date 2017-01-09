@@ -16,7 +16,6 @@ Requires:       redhat-access-insights
 
 # Openstack Requirements
 Requires:       automake
-Requires:       docker-registry
 Requires:       gcc-c++
 Requires:       git
 Requires:       haproxy

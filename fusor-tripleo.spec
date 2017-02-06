@@ -16,6 +16,7 @@ Requires:       redhat-access-insights
 
 # Openstack Requirements
 Requires:       automake
+Requires:       crudini
 Requires:       gcc-c++
 Requires:       git
 Requires:       haproxy

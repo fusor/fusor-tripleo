@@ -69,7 +69,6 @@ Requires:       openstack-tempest
 Requires:       openstack-tripleo-ui
 Requires:       openstack-tripleo-validations
 Requires:       openstack-zaqar
-Requires:       openwsman-python
 Requires:       os-apply-config
 Requires:       os-cloud-config
 Requires:       os-collect-config

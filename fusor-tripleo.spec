@@ -2,7 +2,7 @@
 %{!?scl:%global pkg_name %{name}}
 
 Name:           fusor-tripleo
-Version:        1.0.0
+Version:        1.2.0
 Release:        0%{?dist}
 Summary:        fusor-ooo meta package
 
